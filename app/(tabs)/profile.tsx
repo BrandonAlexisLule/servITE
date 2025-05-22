@@ -3,8 +3,6 @@ import { Session } from '@supabase/supabase-js';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-//al19760600@ite.edu.mx
-
 interface ProfileData {
     name: string,
     last_name: string,
